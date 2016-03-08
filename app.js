@@ -11,7 +11,7 @@ module.exports = function(stockRepository) {
 
     app.get('/stock', routes.getAll);
     app.post('/stock', routes.stockUp);
-    app.get('/stock/:isbn', routes.getCount);
+    app.get('/stock/:isbn', routes.getAll);
 
     app.use(middleware.clientError);
     app.use(middleware.serverError);
