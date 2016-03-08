@@ -2,8 +2,7 @@ var _ = require('lodash');
 var heroin = require('heroin-js');
 
 var test = {
-    name: 'tonjes-book-inventory-service-test',
-    domains: ['tonjes-book-inventory-service.herokuapp.com']
+    name: 'tonjes-book-inventory-test'
 };
 
 var config = _.merge({}, require('./base'), test);
