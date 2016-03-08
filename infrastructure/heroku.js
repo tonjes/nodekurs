@@ -2,12 +2,12 @@ var heroin = require('heroin-js');
 
 var configurator = heroin(process.env.HEROKU_API_TOKEN, {debug: false});
 
-configurator.export('tonjes-book-inventory-service').then(function(result) {
+configurator.export('tonjes-book-inventory-test').then(function(result) {
     console.log(result);
 });
 
 var prod = {
-    name: 'tonjes-book-inventory-service-test',
+    name: 'tonjes-book-inventory-test',
     region: 'eu',
     maintenance: false,
     stack: 'cedar-14',

@@ -1,5 +1,5 @@
 var baseConfig = {
-    name: 'tonjes-book-inventory-service-test',
+    name: 'tonjes-book-inventory-test',
     region: 'eu',
     maintenance: false,
     stack: 'cedar-14',
